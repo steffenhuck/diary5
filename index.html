@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Diary, Part V</title>
+  <script data-goatcounter="https://steffenhuck.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #a8826a;
+      --text: #1e0e06;
+      --muted: #5a3a28;
+      --max-width: 660px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 26px;
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 32px 100px;
+      opacity: 0;
+      animation: fadeIn 1.8s ease forwards;
+      animation-delay: 0.3s;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .title {
+      font-size: clamp(2.2rem, 4.8vw, 3.2rem);
+      font-weight: 400;
+      letter-spacing: 0.22em;
+      color: var(--text);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .cast-name {
+      font-size: 1.4rem;
+      font-style: italic;
+      font-weight: 400;
+      color: var(--text);
+      opacity: 0.7;
+      letter-spacing: 0.04em;
+    }
+
+    .stage {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 1em;
+      margin-bottom: 52px;
+      line-height: 1.7;
+    }
+
+    .monologue p {
+      margin-bottom: 28px;
+      color: var(--text);
+      font-size: 1em;
+    }
+
+    .monologue p:last-child {
+      margin-bottom: 0;
+    }
+
+    .signature {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+    }
+
+    .signature a {
+      text-decoration: none;
+      color: var(--muted);
+      font-style: normal;
+      transition: color 0.3s ease;
+    }
+
+    .signature a:hover {
+      color: var(--text);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      body { font-size: 22px; }
+      .container { padding: 52px 24px 80px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="title">The Diary, Part V</div>
+      <div class="cast-name">The First Student</div>
+    </div>
+
+    <p class="stage">(By Mimi's grave. The First Student sits on the ground. He writes his diary, repeating his entries after every few lines, sotto voce.)</p>
+
+    <div class="monologue">
+
+      <p>May Mimi rest in peace. Sitting beside the earth above her I realise I never mentioned her here. I think nobody ever mentioned her. She was just there, curious but silent. A sweet little creature and I mourn her.</p>
+
+      <p>And I mourn the brother of her killer. Sure, he had failed his finals more often than anyone before him &mdash; the Instructor let this slip. And, sure, it was a precarious moment. The three of us on that damn boat and the clock ticking down. But we could all have survived. And it would have been so much better to stay with the one who was most senior&hellip;</p>
+
+      <p>His brother is a freaky little copy of the Doctor.</p>
+
+      <p>Handle with care, written in bold on his forehead.</p>
+
+      <p>If I&rsquo;m ever awarded the knife I shall know what to do with it.</p>
+
+      <p>The other day we had an interesting lesson on agency. Not agents, not spies. People&rsquo;s ability to make sense of their lives and take things into their own hands. The lecturer was a minor figure. No glamour whatsoever. But he made one thing clear: agency, perceived agency, is a bloody dangerous thing. People must be robbed of it. He didn&rsquo;t quite phrase it like this, but it was the only viable conclusion. People must feel like cogs. And they must be happy in this state.</p>
+
+      <p>Not soooo easy to engineer, I reckon. But there are examples.</p>
+
+      <p>Which brings me to the email I received this morning. An offer for an apprenticeship with the German Industrialist. He even offered to pay me, and very handsomely so. But I think this comes too early. And I don&rsquo;t see myself as a business guy.</p>
+
+      <p>But, still, finally, I see there might be gainful employment from all of this. And that is a relief.</p>
+
+    </div>
+
+    <div class="signature">
+      <a href="https://steffenhuck.github.io/">steffen huck</a>
+    </div>
+
+  </div>
+</body>
+</html>
